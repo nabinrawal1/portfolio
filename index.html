@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabin Rawal - Computer Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- WhatsApp CSS -->
+    <link rel="stylesheet" href="whatsapp.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- Neural Network Background Canvas -->
+    <canvas id="neuralNetwork"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+               <img src="logo.jpeg" alt="Logo" class="logo-img">
+               <a href="#about" class="nav-logo">Nabin Rawal</a>
+                
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hello I am </h1>
+                <h2 class="hero-subtitle">Computer Engineer</h2>
+                <p class="hero-description"> Computer engineering scholar with a passion for full-stack development. Merging analytical thinking with creative problem-solving to build impactful digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="profile1.jpeg" alt="Nabin Rawal" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="card about-card">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a passionate Computer Engineer with a Bachelor's degree from NAST College, affiliated with Pokhara University. My education has provided me with a strong foundation in computer science principles and practical programming skills.</p>
+                        <p>During my studies, I've worked with various programming languages and technologies including Java, C++, C, Python, and JavaScript.Similarly I have learn HTML,CSS,Java Script etc .I've also explored advanced topics like Artificial Intelligence and Machine Learning, applying them in practical projects.</p>
+                        <p>I enjoy creating efficient, scalable solutions to complex problems and am always eager to learn new technologies and methodologies.</p>
+                    </div>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor in Computer Engineering</h4>
+                            <p class="institution">NAST College, Pokhara University</p>
+                            <p class="year">2022 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="card skills-card">
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Other Technologies</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">AI/ML</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Database Management</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Git</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" data-level="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects/project1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Room Renting Website</h3>
+                        <p class="project-description">A full-stack website  built with flask and html,css, featuring user authentication, and inventory management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">java Scripts</span>
+                            <span class="tech-tag">Sqllite</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects/project2.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Note sharing platform </h3>
+                        <p class="project-description"> Note sharing webste is a platform that allows user to view , download notes of pokhara university from semester I to semester VIII of all faculty</p> 
+                        <div class="project-tech">
+                            <span class="tech-tag">Python Django</span>
+                            <span class="tech-tag">HTML,CSS</span>
+                            <span class="tech-tag">sqllite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Inprogress</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects/project3.webp" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Ai powerd website </h3>
+                        <p class="project-description">Learning AI and ML for my college project</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">sckit-learn</span>
+                            <span class="tech-tag">pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Still in Progress</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="card contact-info-card">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>yagyarawal771@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>(+977)9840295924</p>
+                            </div>
+                        </div>
+                        <!-- WhatsApp Contact Item -->
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="contact-text">
+                                <h3>WhatsApp</h3>
+                                <p>(+977)9840295924</p>
+                                <a href="https://wa.me/9779840295924?text=Hi%20Nabin,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you." 
+                                   class="whatsapp-btn" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Dhangadi, Nepal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card contact-form-card">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <!-- WhatsApp Form Button -->
+                        <button type="button" id="whatsappFormBtn" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/9779840295924?text=Hi%20Nabin,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you." 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Nabin Rawal. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/dashboard"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nabin-rawal-5a58b5390"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/1Bz4VYhF4V/"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <!-- WhatsApp Social Link -->
+                    <a href="https://wa.me/9779840295924" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- WhatsApp JavaScript -->
+    <script src="whatsapp.js"></script>
+    <script>
+        // Email functionality
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:yagyarawal771@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+        });
+    </script>
+    
+</body>
+</html>
